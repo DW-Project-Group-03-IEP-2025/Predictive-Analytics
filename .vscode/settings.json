@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 15,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "trustServerCertificate": true
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "100.99.225.51",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "100.99.225.51",
+            "group": "DW_TEST",
+            "database": "TEST1",
+            "username": "SA"
+        }
+    ]
+}
